@@ -1,0 +1,13 @@
+Bio-Data
+
+Name: Sanjay Sah.S
+DOB: 15-11-2005
+Gender: Male
+Age: 19
+Nationality: Indian
+Language Known: Tamil, English
+Degree: BCA
+Qualifications: Higher Secondary
+Hobbies: Playing Cricket, Learning New Skills
+Address: 77/A Nadu Street, Kanchipuram
+Contact: ABC@gmail.com
