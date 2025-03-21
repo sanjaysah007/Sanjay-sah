@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Resume Portfolio">
-    <title>Resume Portfolio - Jane Smith</title>
+    <title>My Resume Portfolio</title>
     <style>
         /* General Styles */
         * {
@@ -14,72 +14,53 @@
             scroll-behavior: smooth;
         }
         body {
-            font-family: 'Arial', sans-serif;
-            background: #1e1e1e;
-            color: #f4f4f4;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
         }
-        /* Header */
         header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
             text-align: center;
-            padding: 40px 20px;
-            background: #007bff;
-            color: white;
         }
-        header h1 {
-            margin-bottom: 5px;
-        }
-        header p {
-            font-size: 1.1rem;
-        }
-        /* Navigation */
         nav {
+            background: #555;
+            padding: 10px 0;
             text-align: center;
-            margin: 20px 0;
         }
         nav a {
-            color: #007bff;
-            text-decoration: none;
+            color: #fff;
             margin: 0 15px;
-            font-size: 1.1rem;
-            transition: color 0.2s;
+            text-decoration: none;
+            font-weight: bold;
         }
-        nav a:hover {
-            color: #00d4ff;
-        }
-        /* Sections */
         section {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             padding: 20px;
-            background: #2c2c2c;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
-        h2 {
-            color: #00d4ff;
-            margin-bottom: 15px;
+        h1, h2, h3 {
+            color: #007bff;
         }
-        /* Skills */
         .skills span {
             display: inline-block;
             background: #007bff;
-            color: white;
-            padding: 6px 12px;
+            color: #fff;
+            padding: 5px 10px;
             margin: 5px;
-            border-radius: 20px;
+            border-radius: 4px;
             font-size: 0.9rem;
-            transition: background 0.2s;
         }
-        .skills span:hover {
-            background: #00d4ff;
-        }
-        /* Contact */
         #contact a {
-            color: #00d4ff;
+            color: #007bff;
             text-decoration: none;
         }
-        #contact button {
+        button {
             background: #007bff;
             color: white;
             padding: 10px 20px;
@@ -87,36 +68,34 @@
             border-radius: 5px;
             cursor: pointer;
             margin-top: 20px;
-            transition: background 0.2s;
         }
-        #contact button:hover {
-            background: #00d4ff;
+        button:hover {
+            background: #0056b3;
         }
-        /* Footer */
         footer {
             text-align: center;
             margin: 40px 0 20px;
-            color: #888;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Sanjay Sah.S</h1>
-    <p>Front-end developer</p>
+   <h1>Sanjay Sah.S</h1>
+    <p>Full Stack Developer | Creative Enthusiast</p>
 </header>
 
 <nav>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
-    <a href="#language known">Language Known</a>
+    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
     <h2>About Me</h2>
-    <p>Proactive BCA student with skills in programming, web development, and database management. Passionate about exploring emerging technologies and committed to continuous learning to contribute effectively to projects.</p>
+    <p>As a passionate graphic designer and web developer, I possess a sharp eye for detail and a strong appreciation for creative storytelling. I am dedicated to transforming unique ideas into compelling designs and innovative code.</p>
 </section>
 
 <section id="skills">
@@ -125,40 +104,35 @@
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>
-        <span>Python</span>
         <span>C++</span>
-        <span>Data Structure</span>
-        <span>Java</span>
+        <span>Java Programming</span>
+        <span>Python Programming</span>
     </div>
 </section>
 
-<section id="language known">
-    <h2>Language Known</h2>
+<section id="language-known">
+    <h2>Languages Known</h2>
     <ul>
         <li>Tamil</li>
         <li>English</li>
+        <li>Hindi</li>
     </ul>
 </section>
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="XXXXX@gmail.com">XXX@gmail
-    .com</a></p>
-    <p>Phone: +91 0000000000</p>
-    <p>GitHub: <a href="https://github.com/sanjaysah66666" target="_blank">github.com/sanjay sah</a></p>
-    <button onclick="downloadResume()">Download Resume</button>
+    <p>Email: <a href="mailto:sanjaysah*****@gmail.com">sanjaysah*****@gmail.com@gmail.com</a></p>
+    <p>Phone: +91 8015540***</p>
+    
+    <!-- Link the button to the .txt file -->
+    <a href="sanjaybiodata.docx" download>
+        <button>Download BioData</button>
+    </a>
 </section>
 
 <footer>
-    <p>&copy; 2025 Sanjay Sah. All Rights Reserved.</p>
+    <p>&copy; 2025 SanjaySah.S. All Rights Reserved.</p>
 </footer>
-
-<script>
-    function downloadResume() {
-        alert("Downloading Sanjay's Resume...");
-        window.open('https://example.com/Sanjay-resume.pdf', '_blank');
-    }
-</script>
 
 </body>
 </html>
